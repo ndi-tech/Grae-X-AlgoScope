@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-01-20T05:56:16.982938",
+  "target_url": "https://example.com",
+  "query": "wordpress tutorial",
+  "market": "global",
+  "summary": "Found 2 competitors with 2 weaknesses. Weakest competitor: https://wordpress.org (score: 71.8%) Generated 2 actionable attack vectors. Top priority: Publish more recent and updated content than https://wordpress.org",
+  "opportunity_score": 0.303,
+  "competitors_analyzed": 2,
+  "competitors": [
+    {
+      "url": "https://wordpress.org",
+      "overall_score": 0.718,
+      "content_score": 0.762,
+      "technical_score": 0.852,
+      "authority_score": 0.525,
+      "weaknesses": [
+        {
+          "type": "freshness",
+          "severity": 0.5,
+          "description": "Outdated content"
+        }
+      ]
+    },
+    {
+      "url": "https://squarespace.com",
+      "overall_score": 0.766,
+      "content_score": 0.678,
+      "technical_score": 0.906,
+      "authority_score": 0.746,
+      "weaknesses": [
+        {
+          "type": "freshness",
+          "severity": 0.5,
+          "description": "Outdated content"
+        }
+      ]
+    }
+  ],
+  "attack_vectors": [
+    {
+      "competitor_url": "https://wordpress.org",
+      "weakness_type": "freshness",
+      "action": "Publish more recent and updated content than https://wordpress.org",
+      "priority": 6,
+      "expected_impact": "Better freshness score in rankings",
+      "effort_required": "low"
+    },
+    {
+      "competitor_url": "https://squarespace.com",
+      "weakness_type": "freshness",
+      "action": "Publish more recent and updated content than https://squarespace.com",
+      "priority": 6,
+      "expected_impact": "Better freshness score in rankings",
+      "effort_required": "low"
+    }
+  ]
+}

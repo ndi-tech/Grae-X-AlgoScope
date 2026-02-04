@@ -1,0 +1,29 @@
+[project]
+name = "graex-algoscope"
+version = "0.1.0"
+description = "Next-generation SEO automation platform"
+authors = [{name = "Grae-X Labs", email = "dev@graexlabs.com"}]
+requires-python = ">=3.9"
+
+[project.dependencies]
+requests = ">=2.31.0"
+beautifulsoup4 = ">=4.12.0"
+pydantic = ">=2.0.0"
+click = ">=8.1.0"
+rich = ">=13.5.0"
+aiohttp = ">=3.9.0"
+lxml = ">=4.9.0"
+python-dateutil = ">=2.8.0"
+tqdm = ">=4.66.0"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=23.0",
+    "flake8>=6.0",
+    "mypy>=1.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

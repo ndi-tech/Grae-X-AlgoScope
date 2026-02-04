@@ -1,0 +1,19 @@
+{
+  "url": "https://clientwebsite.com",
+  "timestamp": "2026-01-20T06:01:31.449387",
+  "market": "global",
+  "depth": 2,
+  "total_pages": 0,
+  "success_rate": 0.0,
+  "average_load_time": 0.0,
+  "crawl_reality_score": {
+    "overall": 0.075,
+    "grade": "F",
+    "crawl_budget": 0.0,
+    "render_delay": 0.0,
+    "js_execution": 0.0,
+    "link_flow": 0.5,
+    "content_discovery": 0.0
+  },
+  "important_pages": []
+}
